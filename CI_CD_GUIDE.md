@@ -99,7 +99,7 @@ git push origin feature/new-feature
 The pipeline is configured in: `.github/workflows/ci-cd.yml`
 
 ### Current Settings:
-- **Flutter Version:** 3.24.0
+- **Flutter Version:** 3.27.1
 - **Java Version:** 11
 - **Platforms:** Android
 - **Triggers:** Push/PR to `main` or `develop`

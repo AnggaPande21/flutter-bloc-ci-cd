@@ -117,7 +117,7 @@ Artifacts are uploaded to GitHub Actions for download.
 
 ### Environment Setup
 - Dart SDK: `^3.8.1` (defined in `pubspec.yaml`)
-- Flutter version in CI: `3.24.0` (update `.github/workflows/ci-cd.yml` if needed)
+- Flutter version in CI: `3.27.1` (update `.github/workflows/ci-cd.yml` if needed)
 - Android namespace: `com.bloccicd.bloccicd`
 - Java/Kotlin target: 11
 
