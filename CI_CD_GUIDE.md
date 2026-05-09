@@ -103,6 +103,7 @@ The pipeline is configured in: `.github/workflows/ci-cd.yml`
 - **Java Version:** 11
 - **Platforms:** Android
 - **Triggers:** Push/PR to `main` or `develop`
+- **Artifact Upload:** actions/upload-artifact@v4
 
 ### Customize Pipeline:
 Edit `.github/workflows/ci-cd.yml` to:
