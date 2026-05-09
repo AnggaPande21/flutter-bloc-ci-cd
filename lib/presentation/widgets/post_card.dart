@@ -42,12 +42,16 @@ class PostCard extends StatelessWidget {
                       children: [
                         Text(
                           'User ${post.userId}',
-                          style: Theme.of(context).textTheme.bodySmall
+                          style: Theme.of(context)
+                              .textTheme
+                              .bodySmall
                               ?.copyWith(color: Colors.grey[600]),
                         ),
                         Text(
                           'Post #${post.id}',
-                          style: Theme.of(context).textTheme.bodySmall
+                          style: Theme.of(context)
+                              .textTheme
+                              .bodySmall
                               ?.copyWith(color: Colors.grey[500]),
                         ),
                       ],

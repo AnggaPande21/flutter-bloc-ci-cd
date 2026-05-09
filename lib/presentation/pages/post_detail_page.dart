@@ -48,12 +48,16 @@ class PostDetailPage extends StatelessWidget {
                         children: [
                           Text(
                             'User ${post.userId}',
-                            style: Theme.of(context).textTheme.titleMedium
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleMedium
                                 ?.copyWith(fontWeight: FontWeight.bold),
                           ),
                           Text(
                             'Post ID: ${post.id}',
-                            style: Theme.of(context).textTheme.bodySmall
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall
                                 ?.copyWith(color: Colors.grey[600]),
                           ),
                         ],
@@ -69,9 +73,9 @@ class PostDetailPage extends StatelessWidget {
             Text(
               'Title',
               style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                color: Colors.grey[600],
-                fontWeight: FontWeight.bold,
-              ),
+                    color: Colors.grey[600],
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
             const SizedBox(height: 8),
             Text(
@@ -86,9 +90,9 @@ class PostDetailPage extends StatelessWidget {
             Text(
               'Content',
               style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                color: Colors.grey[600],
-                fontWeight: FontWeight.bold,
-              ),
+                    color: Colors.grey[600],
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
             const SizedBox(height: 8),
             Text(
