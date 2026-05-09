@@ -100,7 +100,7 @@ The pipeline is configured in: `.github/workflows/ci-cd.yml`
 
 ### Current Settings:
 - **Flutter Version:** 3.27.1
-- **Java Version:** 11
+- **Java Version:** 17
 - **Platforms:** Android
 - **Triggers:** Push/PR to `main` or `develop`
 - **Artifact Upload:** actions/upload-artifact@v4

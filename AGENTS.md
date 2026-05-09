@@ -119,7 +119,7 @@ Artifacts are uploaded to GitHub Actions for download.
 - Dart SDK: `^3.5.0` (defined in `pubspec.yaml`)
 - Flutter version in CI: `3.27.1` (update `.github/workflows/ci-cd.yml` if needed)
 - Android namespace: `com.bloccicd.bloccicd`
-- Java/Kotlin target: 11
+- Java/Kotlin target: **17** (required for modern Android Gradle Plugin)
 
 ### Best Practices
 - Use `const` constructors for immutable widgets and entities
