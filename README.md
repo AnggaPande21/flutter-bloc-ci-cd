@@ -1,5 +1,8 @@
 # BlocCI/CD - Flutter Clean Architecture Demo
 
+![CI/CD](https://github.com/AnggaPande21/flutter-bloc-ci-cd/workflows/Flutter%20CI%2FCD/badge.svg)
+[![GitHub](https://img.shields.io/badge/GitHub-flutter--bloc--ci--cd-blue?logo=github)](https://github.com/AnggaPande21/flutter-bloc-ci-cd)
+
 A production-ready Flutter application demonstrating **Clean Architecture**, **BLoC state management**, and **CI/CD** best practices.
 
 ## 🚀 Features
